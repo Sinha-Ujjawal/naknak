@@ -33,6 +33,8 @@
     ```
 
     3. The wasm file is used in the [index.html](./index.html) file
+    
+    4. The build wasm file is served on github pages [here](https://sinha-ujjawal.github.io/naknak/)
 
 ## Copyrights
 Licensed under [@MIT](./LICENSE)
