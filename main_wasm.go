@@ -7,7 +7,7 @@ import (
 )
 
 func encode(this js.Value, inputs []js.Value) any {
-	if len(inputs) != 1 {
+    if len(inputs) != 1 {
         return fmt.Sprintf("Expected one argument, got `%+v` arguments", inputs)
     }
     if inputs[0].Type() != js.TypeString     {
@@ -18,7 +18,7 @@ func encode(this js.Value, inputs []js.Value) any {
 }
 
 func decode(this js.Value, inputs []js.Value) any {
-	if len(inputs) != 1 {
+    if len(inputs) != 1 {
         return fmt.Sprintf("Expected one argument, got `%+v` arguments", inputs)
     }
     if inputs[0].Type() != js.TypeString     {
